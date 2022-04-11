@@ -12,3 +12,59 @@
 }
 
 
+form{
+    display: flex;
+    width: 80%;
+    height: 80%;
+    margin-top: 7%;
+    margin-left: 20px;
+    flex-direction: row;
+    text-align: center;
+    /* background-color: aqua; */
+}
+
+.formulario{
+    display: flex;
+    padding: 40px;
+    margin-left: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(./Imagem/ceuEstrelado.jpg);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.exibirPesquisa{
+    display: flex;
+    margin: 10px;
+    padding: 30px;
+    background-color:burlywood;
+
+}
+
+.dadosDoUser{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    background-color: #2A4A5F;
+    border-radius: 30PX;
+    box-shadow: 0px 0px 20px white;
+}
+
+.dataDoUser{
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:black;
+    /* box-shadow: 0px 5px 15px white; */
+}
+
+.nomeDoUser{
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:black;
+    /* box-shadow: 0px 5px 15px white;  */
+    color: white
+}

@@ -5,31 +5,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cosmos.css">
+
     <title>Busca Nasa</title>
 </head>
 
-<body>
-    <header>
-    </header>
+<body class="body">
     <main>
-
-            <form>
-                <section>
-                    <div class="logo">
-
+        <form>
+            <section class="formulario">
+                <div class="logo">
+                    <img src="./Imagem/COSMOS.png" alt="logoTipo" width="230" height="250">
+                </div>
+                <div class="dadosDoUser">
+                    <input type="date" class="dataDoUser">
+                    <br><br>
+                    <input type="text" class="nomeDoUser">
+                    <br>
+                    <div class="envioDeDados">
+                        <input type="button" id="btnDeEnvio" value="Enviar Pesquisa" onclick="EnviarData()">
                     </div>
-                    <div class="nomeDoUe">
+                </div>
+            </section>
+            <section class="exibirPesquisa">
+                <div class="imagem">
 
-                    </div>
-                    <div class="dataDoUe">
-
-                    </div>
-                </section>
-            </form>
+                </div>
+                <div class="fraseComInfo">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quia sapiente distinctio
+                        voluptatem mollitia rerum ut, excepturi, similique ad illum voluptatum in earum maiores fugiat
+                        eaque at delectus? Quisquam, nihil?</p>
+                    <br><br>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, consectetur natus magni error culpa
+                    omnis dolorum blanditiis sequi voluptatum, tenetur, vitae possimus ea veniam voluptates magnam iure!
+                    Neque, esse perspiciatis!
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic tempora exercitationem debitis
+                    doloribus ab itaque, ipsa amet. Alias tempore ad reiciendis rem maiores laudantium ipsam molestiae
+                    eos! Aperiam, consequatur possimus!
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore quas ex qui vel tempore
+                        dolorem sint dolor quasi delectus, aut, ea illo rerum expedita perspiciatis eius doloremque
+                        ipsum ad laboriosam.</p>
+                </div>
+            </section>
+        </form>
     </main>
     <footer>
 
     </footer>
+
+    <script src="cosmos.js"></script>
 </body>
 
 </html>

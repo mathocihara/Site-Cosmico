@@ -10,50 +10,41 @@
     <title>Busca Nasa</title>
 </head>
 
-<body class="body">
+<body>
     <main>
-        <form>
-            <section class="formulario">
-                <div class="logo">
-                    <img src="./Imagem/COSMOS.png" alt="logoTipo" width="230" height="250">
-                </div>
-                <div class="dadosDoUser">
-                    <input type="date" class="dataDoUser">
-                    <br><br>
-                    <input type="text" class="nomeDoUser">
-                    <br>
-                    <div class="envioDeDados">
-                        <input type="button" id="btnDeEnvio" value="Enviar Pesquisa" onclick="EnviarData()">
-                    </div>
-                </div>
-            </section>
-            <section class="exibirPesquisa">
-                <div class="imagem">
+        <section>
+        <form id="formulario">
 
+                <div class="formulario">
+                    <div class="logo">
+                        <img src="./Imagem/COSMOS.png" alt="logoTipo" width="230" height="250">
+                    </div>
+                    <label class="dadosDoUser">
+                        <input type="date" class="dataDoUser">
+                        <br><br>                        <br>
+                        <input type="button" class="btnDeEnvio" value="Enviar Pesquisa" >
+                        <br><br>
+                        <p class="conta"></p>
+                    </label>
+                </div>
+        </form>
+            <div class="exibirPesquisa">
+                <div class="imagem">
                 </div>
                 <div class="fraseComInfo">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quia sapiente distinctio
-                        voluptatem mollitia rerum ut, excepturi, similique ad illum voluptatum in earum maiores fugiat
-                        eaque at delectus? Quisquam, nihil?</p>
+                    <h1 class="titulo"></h1>
+                    <img class="respostaFoto" id="respostaFoto"  width="30%">
+                    <iframe class="respostaVideo" id="respostaVideo" width="70%"></iframe>
                     <br><br>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, consectetur natus magni error culpa
-                    omnis dolorum blanditiis sequi voluptatum, tenetur, vitae possimus ea veniam voluptates magnam iure!
-                    Neque, esse perspiciatis!
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic tempora exercitationem debitis
-                    doloribus ab itaque, ipsa amet. Alias tempore ad reiciendis rem maiores laudantium ipsam molestiae
-                    eos! Aperiam, consequatur possimus!
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore quas ex qui vel tempore
-                        dolorem sint dolor quasi delectus, aut, ea illo rerum expedita perspiciatis eius doloremque
-                        ipsum ad laboriosam.</p>
+                    <p class="textoFinal"></p>
                 </div>
+            </div>
             </section>
-        </form>
     </main>
-    <footer>
-
-    </footer>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="cosmos.js"></script>
+
 </body>
 
 </html>

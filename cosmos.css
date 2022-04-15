@@ -1,32 +1,28 @@
-*{
-    margin: 0;
-    padding: 0;
+
+html{
+    width: 100%;
+    height: 100%;
 }
 
 
-.body {
-    display: flex;
-    width: 100vw;
-    height: 100vh;
+body {
     background: linear-gradient(180deg, #124D6B, #2A4A5F, #121212);
 }
+main{
+}
 
-
-form{
+section{
     display: flex;
-    width: 80%;
-    height: 80%;
-    margin-top: 7%;
-    margin-left: 20px;
-    flex-direction: row;
+    width: 100%;
+    height: 100%;
     text-align: center;
+    margin-top: 40px;
     /* background-color: aqua; */
 }
 
 .formulario{
     display: flex;
     padding: 40px;
-    margin-left: 10px;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
@@ -37,9 +33,12 @@ form{
 
 .exibirPesquisa{
     display: flex;
-    margin: 10px;
-    padding: 30px;
-    background-color:burlywood;
+    padding: 10px;
+    width: 60%;
+    background-color:#EEF2FF;
+    opacity: 0.8;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px white;
 
 }
 
@@ -56,15 +55,16 @@ form{
     display: flex;
     padding: 10px;
     border-radius: 10px;
-    background-color:black;
+    background-color:#124D6B;
     /* box-shadow: 0px 5px 15px white; */
+    color: white;
 }
 
 .nomeDoUser{
     display: flex;
     padding: 10px;
     border-radius: 10px;
-    background-color:black;
+    background-color:#124D6B;
     /* box-shadow: 0px 5px 15px white;  */
-    color: white
+    color: white;
 }
